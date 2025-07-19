@@ -18,10 +18,10 @@ A cyberpunk, AAA-quality, fully modular Brick Breaker game built with HTML, CSS,
 
 | Section         | Screenshot Link |
 |----------------|----------------|
-| Main Menu      | ![Main Menu](./screenshots/main-menu.png) |
-| Levels Modal   | ![Levels](./screenshots/levels-modal.png) |
-| Instructions   | ![Instructions](./screenshots/instructions-modal.png) |
-| Settings       | ![Settings](./screenshots/settings-modal.png) |
+| Main Menu      | ![Main Menu](1.png) |
+| Levels Modal   | ![Levels](2.png) |
+| Instructions   | ![Instructions](3.png) |
+| Settings       | ![Settings](4.png) |
 | Level 1        | ![Level 1](./screenshots/level1.png) |
 | Level 2        | ![Level 2](./screenshots/level2.png) |
 | Level 3        | ![Level 3](./screenshots/level3.png) |
