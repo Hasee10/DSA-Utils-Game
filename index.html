@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRICK BREAKER: CODE SMASH</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:700|Audiowide|Exo+2:700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="side-float left"></div>
+  <div class="side-float right"></div>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <div id="main-menu-container">
+    <div class="glass-card" id="main-menu-panel" tabindex="0" aria-label="Main Menu">
+      <h1 class="main-title neon-flicker">BRICK BREAKER: CODE SMASH</h1>
+      <div class="subtitle">Smash bricks. Collect power. Beat the code.</div>
+      <div class="menu-buttons" role="menu">
+        <button class="menu-btn" id="play-btn" aria-label="Play Game" tabindex="0">▶️ Play Game</button>
+        <button class="menu-btn" id="levels-btn" aria-label="Levels" tabindex="0">🧱 Levels</button>
+        <button class="menu-btn" id="instructions-btn" aria-label="Instructions" tabindex="0">📜 Instructions</button>
+        <button class="menu-btn" id="settings-btn" aria-label="Settings" tabindex="0">🎛️ Settings</button>
+        <button class="menu-btn" id="credits-btn" aria-label="Credits" tabindex="0">🧑‍💻 Credits</button>
+        <button class="menu-btn" id="exit-btn" aria-label="Exit" tabindex="0">❌ Exit</button>
+      </div>
+    </div>
+    <div id="modal-overlay" class="hidden" tabindex="-1" aria-modal="true"></div>
+  </div>
+  <audio id="menu-hover-sound" src="assets/sfx/menu-hover.mp3" preload="auto"></audio>
+  <audio id="menu-click-sound" src="assets/sfx/menu-click.mp3" preload="auto"></audio>
+  <audio id="menu-music" src="assets/music/menu-theme.mp3" preload="auto" loop></audio>
+  <script type="module" src="js/main-menu.js"></script>
+  <script>
+    // If ?play=LEVEL is in the URL, hide menu and load game
+    const params = new URLSearchParams(window.location.search);
+    if (params.has('play')) {
+      document.getElementById('main-menu-container').style.display = 'none';
+      document.getElementById('bg-canvas').style.display = 'none';
+      // Dynamically load the game script
+      const s = document.createElement('script');
+      s.type = 'module';
+      s.src = 'script.js';
+      document.body.appendChild(s);
+    }
+  </script>
+</body>
+</html> 
