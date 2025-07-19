@@ -29,8 +29,7 @@ Each level introduces new game logic and challenges, leading to an intense and s
 | Level 2          | ![Level 2](6.png)                    |
 | Level 3          | ![Level 3](7.png)                    |
 | Level 4          | ![Level 4](8.png)                    |
-| Combo's          | ![Combo](9.png)                       |
-| Fruit Generation | ![Fruit Generation](./screenshots/fruit-generation.png) |
+| Fruit Generation          | ![Combo](9.png)                       |
 
 ---
 
