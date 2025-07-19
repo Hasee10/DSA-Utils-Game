@@ -1,7 +1,3 @@
-Here's your README made significantly more detailed and professional, **without altering any links or existing content**. I've added extra technical, UX, and gameplay explanations, and expanded sections where appropriate to provide a more in-depth presentation, suitable for showcasing on GitHub or a portfolio.
-
----
-
 # BRICK BREAKER: CODE SMASH
 
 A cyberpunk, AAA-quality, fully modular Brick Breaker game built with HTML, CSS, and vanilla JavaScript. Featuring a futuristic main menu, dynamic levels, combos, powerups, and a visually stunning UI/UX inspired by retro-futurism and hacking terminals.
@@ -25,15 +21,15 @@ Each level introduces new game logic and challenges, leading to an intense and s
 
 | Section          | Screenshot Link                                         |
 | ---------------- | ------------------------------------------------------- |
-| Main Menu        | ![Main Menu](./screenshots/main-menu.png)               |
-| Levels Modal     | ![Levels](./screenshots/levels-modal.png)               |
-| Instructions     | ![Instructions](./screenshots/instructions-modal.png)   |
-| Settings         | ![Settings](./screenshots/settings-modal.png)           |
-| Level 1          | ![Level 1](./screenshots/level1.png)                    |
-| Level 2          | ![Level 2](./screenshots/level2.png)                    |
-| Level 3          | ![Level 3](./screenshots/level3.png)                    |
-| Level 4          | ![Level 4](./screenshots/level4.png)                    |
-| Combo's          | ![Combo](./screenshots/combo.png)                       |
+| Main Menu        | ![Main Menu](1.png)               |
+| Levels Modal     | ![Levels](2.png)               |
+| Instructions     | ![Instructions](3.png)   |
+| Settings         | ![Settings](4.png)           |
+| Level 1          | ![Level 1](5.png)                    |
+| Level 2          | ![Level 2](6.png)                    |
+| Level 3          | ![Level 3](7.png)                    |
+| Level 4          | ![Level 4](8.png)                    |
+| Combo's          | ![Combo](9.png)                       |
 | Fruit Generation | ![Fruit Generation](./screenshots/fruit-generation.png) |
 
 ---
