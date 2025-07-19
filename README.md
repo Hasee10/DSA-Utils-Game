@@ -170,9 +170,9 @@ This game was built using a series of detailed, AAA-level prompts, each focusing
 
 ## 🏆 Credits
 
-Game by **Your Name**
+Game by **Muhammad Haseeb Arshad**
 Stack: HTML, CSS, JS
-[GitHub](https://github.com/yourgithub)
+[GitHub](https://github.com/Hasee10)
 Version 1.0
 
 ---
@@ -186,7 +186,3 @@ Feel free to fork, star, and contribute via pull requests.
 
 Enjoy smashing bricks and beating the code! 💻🔨
 **Welcome to CODE SMASH.**
-
----
-
-Would you like a Markdown badge section or GitHub Actions CI badge block at the top as well?
